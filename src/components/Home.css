@@ -1,0 +1,99 @@
+/* Home.css */
+.home {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .hero-section {
+    background: linear-gradient(to right, #4CAF50, #81C784);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .cta-button {
+    background-color: #fff;
+    color: #4CAF50;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .services-section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .services-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .service-card {
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    flex: 1 1 200px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .service-icon {
+    font-size: 40px; /* Increase icon size */
+    margin-bottom: 10px;
+  }
+
+    /* Add a keyframe animation to fade in the hero section */
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .hero-section {
+    animation: fadeIn 1s ease-in-out;
+  }
+
+    /* Add a keyframe animation to fade in the service cards */
+
+  .service-card {
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+    animation-delay: calc(0.1s * var(--i)); /* Delays based on the index */
+  }
+  
+  .service-card:nth-child(1) { --i: 1; }
+  .service-card:nth-child(2) { --i: 2; }
+  .service-card:nth-child(3) { --i: 3; }
+  .service-card:nth-child(4) { --i: 4; }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

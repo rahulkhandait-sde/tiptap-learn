@@ -1,0 +1,44 @@
+/* Navbar.css */
+.navbar {
+    background-color: #4CAF50; /* Green background */
+    overflow: hidden; /* Clear floats */
+    position: fixed; /* Fix the navbar to the top */
+    top: 0; /* Align to the top */
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure it stays on top of other content */
+  }
+  
+  .navbar-logo {
+    float: left; /* Aligns the logo to the left */
+    padding: 14px 16px; /* Padding for the logo */
+    color: white; /* Text color */
+  }
+  
+  .navbar-links {
+    list-style-type: none; /* No bullets */
+    margin: 0; /* No margin */
+    padding: 0; /* No padding */
+    float: right; /* Aligns links to the right */
+  }
+  
+  .navbar-links li {
+    float: left; /* Aligns items horizontally */
+  }
+  
+  .navbar-links li a {
+    display: block; /* Makes links fill the li */
+    color: white; /* Text color */
+    text-align: center; /* Center text */
+    padding: 14px 16px; /* Padding for links */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .navbar-links li a:hover {
+    background-color: #3e8e41; /* Darker green on hover */
+  }
+  
+  /* Add some margin to the top of the main content to avoid overlap with the navbar */
+  body {
+    margin-top: 60px; /* Adjust based on navbar height */
+  }
+  
