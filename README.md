@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" alt="Project Logo" width="150" height="150">
+  <img src="https://github.com/user-attachments/assets/de1a6a72-3d71-4692-b359-886fa6b9ec66" alt="Project Logo" width="150" height="150">
 </p>
 
 <h1 align="center">TipTapLearn</h1>
