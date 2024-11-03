@@ -95,7 +95,7 @@ Before you begin, ensure you have the following:
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/rahulkhandait-sde/TipTapLearn.git
-   cd TipTapLearn
+   cd tiptap-learn
    ```
 
 2. **Install Dependencies**:
