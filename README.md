@@ -73,7 +73,7 @@
 - **Backend**: Node.js, Express
 - **Blockchain Integration**: ThirdWeb for blockchain and wallet integrations, Zoop Wallet for document storage
 - **Database**: MongoDB
-- **Hosting**: Vercel (frontend), AWS/GCP (backend)
+- **Hosting**: Vercel (frontend), GCP (backend)
 - **Others**: GitHub Actions for CI/CD, Postman for API testing
 
 ---
